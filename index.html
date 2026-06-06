@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purified Audio | Heavy Music Production & Editing</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#0b0b0b;
+    color:#f5f5f5;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:100px 0;
+}
+
+h1,h2,h3{
+    line-height:1.2;
+}
+
+h2{
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+p{
+    color:#c7c7c7;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-primary{
+    background:#ffffff;
+    color:#000;
+}
+
+.btn-primary:hover{
+    opacity:.85;
+}
+
+.btn-outline{
+    border:1px solid #444;
+    color:#fff;
+    margin-left:12px;
+}
+
+.btn-outline:hover{
+    background:#1a1a1a;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    background:
+    linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.85)),
+    url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1800&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero .subtitle{
+    color:#999;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:0 auto 35px;
+    font-size:1.15rem;
+}
+
+.social-proof{
+    margin-top:40px;
+    color:#999;
+    font-size:.95rem;
+}
+
+.about{
+    background:#111;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:50px;
+}
+
+.card{
+    background:#141414;
+    border:1px solid #222;
+    padding:30px;
+    border-radius:12px;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.card ul{
+    margin-top:15px;
+    padding-left:18px;
+}
+
+.card li{
+    margin-bottom:8px;
+    color:#c7c7c7;
+}
+
+.price{
+    margin-top:20px;
+    font-weight:700;
+    color:#fff;
+}
+
+.portfolio{
+    background:#0d0d0d;
+}
+
+.portfolio-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.embed{
+    background:#151515;
+    border-radius:12px;
+    padding:20px;
+}
+
+.testimonials{
+    background:#111;
+}
+
+.quote{
+    background:#151515;
+    padding:30px;
+    border-left:4px solid white;
+    margin-bottom:25px;
+    border-radius:6px;
+}
+
+.process-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.step{
+    background:#141414;
+    padding:25px;
+    border-radius:12px;
+}
+
+.step-number{
+    font-size:2rem;
+    font-weight:800;
+    margin-bottom:10px;
+}
+
+.faq-item{
+    margin-bottom:25px;
+}
+
+.contact{
+    text-align:center;
+    background:#0b0b0b;
+}
+
+form{
+    max-width:700px;
+    margin:40px auto 0;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    background:#151515;
+    border:1px solid #333;
+    color:#fff;
+    border-radius:8px;
+}
+
+textarea{
+    min-height:180px;
+}
+
+footer{
+    text-align:center;
+    padding:40px 0;
+    border-top:1px solid #1f1f1f;
+    color:#777;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.7rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+.btn{
+    display:block;
+    margin:10px auto;
+}
+
+.btn-outline{
+    margin-left:0;
+}
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="container">
+        <div class="subtitle">Heavy Music Production & Editing</div>
+
+        <h1>Purified Audio</h1>
+
+        <p>
+            Precision editing, mixing, and production for metal,
+            metalcore, deathcore, hardcore, and modern heavy music.
+            Massive sound. Tight performances. Professional results.
+        </p>
+
+        <a href="#contact" class="btn btn-primary">Get a Quote</a>
+        <a href="#portfolio" class="btn btn-outline">Listen to My Work</a>
+
+        <div class="social-proof">
+            Active musician • 20k+ monthly listeners • 60k+ streams on latest release
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="container">
+        <h2>Heavy Music Made Heavy</h2>
+
+        <p>
+            I'm Sam, a producer, editor, and musician focused on helping
+            heavy bands achieve modern, aggressive, professional-sounding releases.
+            From tightening performances to delivering release-ready mixes,
+            I specialize in making heavy music hit harder without losing its energy.
+        </p>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+
+        <h2>Services</h2>
+
+        <div class="services-grid">
+
+            <div class="card">
+                <h3>Audio Editing</h3>
+
+                <p>Tight, professional editing for modern heavy music.</p>
+
+                <ul>
+                    <li>Drum editing</li>
+                    <li>Guitar editing</li>
+                    <li>Bass editing</li>
+                    <li>Vocal alignment</li>
+                    <li>Performance cleanup</li>
+                </ul>
+
+                <div class="price">Starting at $XX / song</div>
+            </div>
+
+            <div class="card">
+                <h3>Mixing</h3>
+
+                <p>Modern, aggressive mixes that compete with today's releases.</p>
+
+                <ul>
+                    <li>EQ & Compression</li>
+                    <li>Automation</li>
+                    <li>Effects Processing</li>
+                    <li>Mix Revisions</li>
+                    <li>Master Bus Processing</li>
+                </ul>
+
+                <div class="price">Starting at $XX / song</div>
+            </div>
+
+            <div class="card">
+                <h3>Production</h3>
+
+                <p>Feedback and guidance to strengthen your songs.</p>
+
+                <ul>
+                    <li>Arrangement feedback</li>
+                    <li>Tone selection</li>
+                    <li>Recording advice</li>
+                    <li>Pre-production</li>
+                    <li>Creative consultation</li>
+                </ul>
+
+                <div class="price">Custom Pricing</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <h2>Recent Work</h2>
+
+        <div class="portfolio-grid">
+
+            <div class="embed">
+                <h3>Purified — Latest Release</h3>
+                <p>Embed Spotify, YouTube, or Bandcamp player here.</p>
+            </div>
+
+            <div class="embed">
+                <h3>Client Project</h3>
+                <p>Embed Spotify, YouTube, or Bandcamp player here.</p>
+            </div>
+
+            <div class="embed">
+                <h3>Before / After Editing Example</h3>
+                <p>One of the strongest conversion tools for editing clients.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+
+        <h2>What Clients Say</h2>
+
+        <div class="quote">
+            "Our tracks came back tighter, heavier, and more professional than we imagined."
+        </div>
+
+        <div class="quote">
+            "Fast turnaround, clear communication, and incredible attention to detail."
+        </div>
+
+    </div>
+</section>
+
+<section class="process">
+    <div class="container">
+
+        <h2>How It Works</h2>
+
+        <div class="process-grid">
+
+            <div class="step">
+                <div class="step-number">01</div>
+                <h3>Send Tracks</h3>
+                <p>Upload stems and project details.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">02</div>
+                <h3>Review</h3>
+                <p>Discuss references, goals, and timeline.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">03</div>
+                <h3>Production</h3>
+                <p>Editing, mixing, revisions, and feedback.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">04</div>
+                <h3>Delivery</h3>
+                <p>Receive release-ready files.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="faq">
+    <div class="container">
+
+        <h2>FAQ</h2>
+
+        <div class="faq-item">
+            <h3>What genres do you work with?</h3>
+            <p>Metalcore, deathcore, hardcore, metal, post-hardcore, and adjacent heavy genres.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How long does a project take?</h3>
+            <p>Editing projects are often completed within a few days. Mixing timelines vary by project size.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Do you offer revisions?</h3>
+            <p>Yes. Revisions are included with mixing services.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+
+        <h2>Let's Make Something Heavy</h2>
+
+        <p>
+            Ready to start your project? Get in touch below.
+        </p>
+
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Project Type">
+            <textarea placeholder="Tell me about your project"></textarea>
+
+            <button class="btn btn-primary" type="submit">
+                Send Inquiry
+            </button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Purified Audio • Heavy Music Production & Editing
+</footer>
+
+</body>
+</html>
